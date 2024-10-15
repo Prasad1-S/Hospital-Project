@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardiology</title>
+    <!--bootstrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!--css-->
+    <link rel="stylesheet" href="../css/cardio.css">
+
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!--icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--animation-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+<body>
+    <div class="container-fluid">
+      <div class="row top-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-sm-12 logo-area ">
+                   <a href="../index.html"><img src="../content/logof.jpg" alt="logo"></a> 
+                </div>
+
+                <!--menu area-->
+
+                <!--issue = font-weight and style-->
+                <div class="col-md-8 col-sm-12 menu-area mt-4">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                          <ul class="navbar-nav">
+                            <li class="nav-item active">
+                              <a class="nav-link" href="../index.html">HOME <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                                  ABOUT US
+                                </a>
+                                <div class="dropdown-menu">
+                                  <a class="dropdown-item" href="#">Mission and Vision</a>
+                                  <a class="dropdown-item" href="#">Services and Specialties</a>
+                                  <a class="dropdown-item" href="#">Experienced Doctors</a>
+                                </div>
+                              </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                                  SERVICES
+                                </a>
+                                <div class="dropdown-menu">
+                                  <a class="dropdown-item" href="#">Emergency Services</a>
+                                  <a class="dropdown-item" href="./consult.html">Online Consultation Services</a>
+                                  <a class="dropdown-item" href="#">More Services</a>
+                                </div>
+                              </li>
+                            <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                               SPECIALITIES
+                              </a>
+                              <div class="dropdown-menu">
+                                <a class="dropdown-item" href="./cardiology.html">Cardiology</a>
+                                <a class="dropdown-item" href="./neuro.html">Neurology</a>
+                                <a class="dropdown-item" href="./gastro.html">Gastroenterology</a>
+                                <a class="dropdown-item" href="./ortho.html">Orthopedic</a>
+                                <a class="dropdown-item" href="#">Oncology</a>
+                                <a class="dropdown-item" href="#">Gynecology</a>
+                                <a class="dropdown-item" href="#">Dermatology</a>
+                                <a class="dropdown-item" href="#">Ophthalmology</a>
+                                <a class="dropdown-item" href="#">Pediatrics</a>
+                                <a class="dropdown-item" href="#">Endocrinology</a>
+                                <a class="dropdown-item" href="#">Urology</a>
+                                <a class="dropdown-item" href="#">Nephrology</a>
+                                <a class="dropdown-item" href="#">Pulmonology</a>
+                                <a class="dropdown-item" href="#">Rheumatology</a>
+                                <a class="dropdown-item" href="#">Radiology</a>
+                                <a class="dropdown-item" href="#">Psychiatry</a>
+                              </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                                  HEALTH TIPS
+                                </a>
+                                <div class="dropdown-menu">
+                                  <a class="dropdown-item" href="#">Diet</a>
+                                  <a class="dropdown-item" href="#">Exercises</a>
+                                </div>
+                              </li>
+                              
+                              <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                                  CONTACT US
+                                </a>
+                                <div class="dropdown-menu">
+                                  <a class="dropdown-item" href="#">Post a Query</a>
+                                  <a class="dropdown-item" href="./consult.html">Online Consultation</a>
+                                  <a class="dropdown-item" href="#">Book an appointment</a>
+                                </div>
+                              </li>
+                              <li class="nav-item active">
+                                <a href="#" class="nav-link">LOGIN NOW</a>
+                              </li>
+                          
+                          </ul>
+                        </div>
+                      </nav>
+                </div>
+                
+                <div class="col-md-2 col-sm-12 btn-area">
+                  <a href="./appoint.html" class="btn btn ">BOOK APPOINTMENT</a>
+                </div>
+            </div>
+
+
+
+
+        </div>
+    </div>
+    <!--search-area-->
+    <div class="row search-area">
+        <div class="container">
+            <div class="row ">
+              <div class="col-md-2 col-sm-12">
+
+              </div>
+              <div class="col-md-4 col-sm-12 search-button mt-2">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+             </div>
+             <div class="col-md-2 col-sm-12 search mt-2">
+                <button class="btn btn my-2 my-sm-0" type="submit">Search</button>
+             </div>
+                <div class="col-md-2 col-sm-12 btn-search-area mt-2">
+                  <a href="./consult.html" class="btn btn "><i class="fas fa-headset"></i> CONSULT ONLINE</a>
+                </div>
+                <div class="col-md-2 col-sm-12 btn-search-area mt-2">
+                  <a href="#" class="btn btn btn-phone ">LOGIN  <i class="fas fa-sign-in-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+        <!--background-img-->
+
+        <div class="row bg-img">
+          <div class="container">
+            <div class="row text-bg">
+              <div class="col-md-6 col-sm-12">
+                <h1 class="text"><i class="fas fa-quote-left"></i>  Your heart beats for you, take care of it before it skips a beat.  <i class="fas fa-quote-right"></i></h1>
+              </div>
+              <div class="col-md-6 col-sm-12 formm">
+                <h1 class="text-center mb-4" id="h-text">Schedule An Appointment</h1>
+                <form>
+                  <div class="row">
+                    <div class="col-md-6 col-sm-12 form-group">
+                      <label for="name">Name</label>
+                      <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="col-md-6 col-sm-12 form-group">
+                      <label for="gender">Gender</label>
+                      <select class="form-control" id="gender" required>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6 col-sm-12 form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="col-md-6 col-sm-12 form-group">
+                    <label for="phone" >Phone Number</label>
+                    <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-6 col-sm-12 form-group">
+                    <label for="appointmentDate">Appointment Date</label>
+                    <input type="date" class="form-control" id="appointmentDate" required>
+                  </div>
+                  <div class="col-md-6 col-sm-12 form-group">
+                    <label for="appointmentTime">Appointment Time</label>
+                    <input type="time" class="form-control" id="appointmentTime">
+                  </div>
+                  </div>
+                  
+                  <div class="form-group">
+                    <label for="department">Select Speciality</label>
+                    <select class="form-control" id="department" required>
+                      <option value="cardiology">Cardiology</option>
+                      </select>
+                  </div>
+                  <button type="submit" class="btn btn">Book Appointment</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Best cardio-->
+
+        <div class="container">
+          <div class="row best-docs mt-5 mb-5">
+            <div class="col-md-12 col-sm-12">
+              <h1 class="team-h1 p-3 text-center">Our Team of <span>Cardiologists</span></h1>
+            </div>
+              
+            
+            <div class="col-md-6 col-sm-12 mt-5 d-card">
+              <div class="doc-card">
+                <div class="row">
+                  <div class="col-md-6 col-sm-6">
+                    <img src="../content/doctor7.png" alt="" height="200px">
+                  </div>
+                  <div class="col-md-6 col-sm-6">
+                    <h5 class="mt-3">Dr. Rajesh Kumar</h5>
+                    <p>Cardiologist, MD, DM (Cardiology)</p>
+                    <p> <i class="fas fa-award"></i> 20+ years of excellence</p>
+                   <p><i class="fas fa-language"></i> Speaks: Hindi, English</p>
+                   <p><i class="fas fa-clock"></i> Timings: Mon-Fri, 10:00 AM – 2:00 PM</p>
+                  </div>
+                  <hr class="hr1">
+                  <button class="button p-2" onclick="popup()">Book Appointment</button>
+                </div> 
+              </div>
+            </div>
+
+
+            <div class="col-md-6 col-sm-12 mt-5">
+              <div class="doc-card">
+                <div class="row">
+                  <div class="col-md-6 col-sm-6">
+                    <img src="../content/doctor7.png" alt="" height="200px">
+                  </div>
+                  <div class="col-md-6 col-sm-6">
+                    <h5 class="mt-3">Dr. Suresh Menon</h5>
+                    <p>Cardiologist, MBBS, MD, DNB (Cardiology)</p>
+                   <p> <i class="fas fa-award"></i>  15+ years of excellence</p>
+                   <p><i class="fas fa-language"></i> Speaks: Malayalam, Hindi, English</p>
+                   <p><i class="fas fa-clock"></i> Timings: Mon-Sat, 11:00 AM – 3:00 PM</p>
+                  </div>
+                  <hr class="hr">
+                  <button class="button p-2" onclick="popup()">Book Appointment</button>
+                </div> 
+              </div>
+            </div>
+
+
+            <div class="col-md-6 col-sm-12 mt-5">
+              <div class="doc-card">
+                <div class="row">
+                  <div class="col-md-6 col-sm-6">
+                    <img src="../content/doctor7.png" alt="" height="200px">
+                  </div>
+                  <div class="col-md-6 col-sm-6">
+                    <h5 class="mt-3">Dr. Anil Sharma</h5>
+                    <p>Cardiologist, MBBS, MD, FACC   </p>
+                    <p> <i class="fas fa-award"></i> 18+ years of excellence</p>
+                    <p><i class="fas fa-language"></i> Speaks: Hindi, Punjabi, English</p>
+                    <p><i class="fas fa-clock"></i> Timings: Tue-Sat, 9:00 AM – 1:00 PM</p>
+                  </div>
+                  <hr class="hr1">
+                  <button class="button p-2" onclick="popup()">Book Appointment</button>
+                </div> 
+              </div>
+            </div>
+
+
+            <div class="col-md-6 col-sm-12 mt-5">
+              <div class="doc-card">
+                <div class="row">
+                  <div class="col-md-6 col-sm-6">
+                    <img src="../content/doctor7.png" alt="" height="200px">
+                  </div>
+                  <div class="col-md-6 col-sm-6">
+                    <h5 class="mt-3">Dr. Vivek Desai</h5>
+                    <p>Cardiologist, MD, DM (Cardiology)</p>
+                    <p> <i class="fas fa-award"></i> 25+ years of excellence</p>
+                   <p><i class="fas fa-language"></i> Speaks: Gujarati, Hindi, English</p>
+                   <p><i class="fas fa-clock"></i> Timings: Mon-Fri, 12:00 PM – 4:00 PM</p>
+                  </div>
+                  <hr class="hr">
+                  <button class="button p-2" onclick="popup()">Book Appointment</button>
+                </div> 
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+
+
+        <!--popup-form-->
+
+      <div id="form-bg">
+        <div class="col-md-6 col-sm-12" id="popup-formm">
+            <h2 class="text-center mb-4" id="h-text">Schedule An Appointment</h2>
+            <button class="cancel" onclick="closeform()"><i class="fas fa-times"></i></button>
+          
+          <form>
+            <div class="row">
+              <div class="col-md-6 col-sm-12 form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+              </div>
+              <div class="col-md-6 col-sm-12 form-group">
+                <label for="gender">Gender</label>
+                <select class="form-control" id="gender" required>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 col-sm-12 form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email">
+              </div>
+              <div class="col-md-6 col-sm-12 form-group">
+              <label for="phone" >Phone Number</label>
+              <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 col-sm-12 form-group">
+              <label for="appointmentDate">Appointment Date</label>
+              <input type="date" class="form-control" id="appointmentDate" required>
+            </div>
+            <div class="col-md-6 col-sm-12 form-group">
+              <label for="appointmentTime">Appointment Time</label>
+              <input type="time" class="form-control" id="appointmentTime">
+            </div>
+            </div>
+            
+            <div class="form-group">
+              <label for="department">Select Speciality</label>
+              <select class="form-control" id="department" required>
+                <option value="cardiology">Cardiology</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn">Book Appointment</button>
+          </form>
+        </div>
+      </div>
+
+
+<!--what do you wanna do today section-->
+
+<div class="row whatdo">
+  <div class="container">
+    <div class="row cards-area mt-5">
+      <div class="col-md-12 col-sm-12">
+        <h1 class="text-center mb-4 head">What Would You Like To Do <span>Today?</span></h1>
+      </div>
+    <div class="col-md-2 col-sm-12 ">
+      <a href="./appoint.html">
+        <div class="cards text-center">
+          <i class="fas fa-calendar-check icon"></i><h5>Book Appointment</h5>
+        </div>
+      </a>
+    </div>
+    <div class="col-md-2 col-sm-12">
+      <a href="./consult.html">
+        <div class="cards text-center">
+          <i class="fas fa-headset"></i><h5 class="mt-4 p-1">Consult Online</h5>
+       </div>
+      </a>
+    </div>
+    <div class="col-md-2 col-sm-12">
+      <a href="#">
+       <div class="cards text-center">
+        <i class="fas fa-ambulance"></i><h5 class="p-1 mt-2">Emergency Services</h5>
+       </div> 
+      </a>
+    </div>
+    <div class="col-md-2 col-sm-12">
+      <a href="#">
+        <div class="cards text-center">
+          <i class="fas fa-heartbeat"></i><h5 class="mt-2 p-1">Free Health Tips</h5>
+       </div>
+      </a>
+    </div>
+    <div class="col-md-2 col-sm-12">
+      <a href="#">
+        <div class="cards text-center p-1">
+        <i class="fas fa-notes-medical"></i><h5 class="mt-2 p-1">My Health Records</h5>
+      </div>
+      </a>
+    </div>
+    <div class="col-md-2 col-sm-12">
+      <a href="#">
+        <div class="cards text-center">
+        <i class="fas fa-user-md"></i><h5 class="mt-4 p-1">Our Doctors</h5>
+      </div>
+      </a>
+    </div>
+  </div>
+  
+</div>
+</div>
+
+
+<!--footer-->
+
+<div class="row footer">
+  <div class="col-md-3 col-sm-12 logo">
+    <img src="../content/logofoo.jpg" class="mt-5" alt="" height="150px">
+    <p class="text-justify mt-3">Nirvana Hospital is a multi-specialty healthcare center offering top-notch 
+      medical care across a wide range of specialties. With advanced technology and 
+      experienced specialists, we provide personalized treatments in a compassionate, 
+      patient-first environment. At Nirvana Hospital, your health and well-being are our top priorities.</p>
+      <a href="#" class="icon"><i class="fab fa-facebook-square"></i></a>
+      <a href="#" class="icon"><i class="fab fa-youtube"></i></a>
+      <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
+      <a href="#" class="icon"><i class="fab fa-twitter-square"></i></a>
+      <a href="#" class="icon"><i class="fab fa-linkedin"></i></a>
+  </div>
+
+  <div class="col-md-3 col-sm-6 mt-5 p-care">
+    <h5 class="f-head">Patient Care</h5>
+    <a href="#"><i class="fas fa-ambulance"></i> Emergency Services</a><br>
+    <a href="#"><i class="fas fa-calendar-check icon"></i> Schedule an Appointment</a><br>
+    <a href="./consult.html"><i class="fas fa-headset"></i> Consult Online</a><br>
+    <a href="#"><i class="fas fa-clinic-medical"></i> Pharmacy Services</a><br>
+    <a href="#"><i class="fas fa-notes-medical"></i> My Health Records</a>
+    <h5 class="mt-5">Health Tips</h5>
+    <a href="#"><i class="fas fa-chevron-right"></i> Diet</a><br>
+    <a href="#"><i class="fas fa-chevron-right"></i> Exercises</a><br>
+    <a href="#"><i class="fas fa-chevron-right"></i> Preventive Healthcare</a><br>
+    <a href="#"><i class="fas fa-chevron-right"></i> Mental Health & Stress</a><br>
+  </div>
+
+  <div class="col-md-3 col-sm-6 mt-5 about-us">
+    <h5>About Us</h5>
+    <a href="#"><i class="fas fa-chevron-right"></i> Mission & Vision</a><br>
+    <a href="#"><i class="fas fa-chevron-right"></i> Values</a><br>
+    <a href="#"><i class="fas fa-chevron-right"></i> Services & Specialties</a><br>
+    <a href="#"><i class="fas fa-chevron-right"></i> Experienced Doctors</a><br>
+    <h5 class="mt-5">Contact Us</h5>
+    <a href="#"><i class="fas fa-phone-alt"></i> Toll free - 0011001100</a><br>
+    <a href="#"><i class="fas fa-phone-alt"></i> +91 9091312993</a><br>
+    <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCKC
+    JFGQBJgwzQrrglBJjCwCwGlBmdKbqlhkPnHqVJKkvPCzKkxQLLLNhhNkMkXpRNBQJckL"><i class="far fa-envelope"></i> subhojeetprasad123@gmail.com</a><br>
+    <a href="https://mail.google.com/mail/u/0/#inbox?compose=Cl
+    lgCKCJFGQBJgwzQrrglBJjCwCwGlBmdKbqlhkPnHqVJKkvPCzKkxQLLLNhhNkMkXpRNBQJckL"><i class="far fa-envelope"></i> subhojeetprasad0@gmail.com</a>
+  </div>
+
+  <div class="col-md-3 col-sm-6 location mt-5">
+    <h5>Our Location</h5>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3689.353204162469!2d88.43836657501065!3d22.37803844007373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a026d0097533aed%3A0xe18407a46f2e97f6!2sGargi%20Memorial%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1727044747345!5m2!1sen!2sin" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
+  <div class="col-md-12 col-sm-12"> <div class="line"></div></div>
+  
+  <h6 class="copyright">@Copyright 2024.Subhojeet Prasad.All Rights Reserved</h6>
+</div>
+</div><!--fluid end-->
+
+
+
+
+
+
+
+
+<!--javascript file-->
+<script src="../js/cardio.js"></script>
+
+ <!--animation-js-->
+<script>
+ AOS.init();
+</script>
+</body>
+</html>
