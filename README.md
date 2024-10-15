@@ -1,5 +1,5 @@
 # Hospital-Project
-1st frontend project using HTML, CSS &amp; a bit of JavaScript
+1st frontend project using HTML, CSS, Bootstrap &amp; a bit of JavaScript
 
 *Nirvana Hospital*
 
